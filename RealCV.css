@@ -1,0 +1,232 @@
+html {
+		background-color: white;
+		font-style: Arial;
+		width: 100%;
+		height: 100%;
+		margin: 0vw;
+		padding: 0vw;
+		overflow-x: hidden;
+}
+footer {
+		font-size: 1vw;
+}
+#background {
+		background-color: #ff3d5a;
+        color: white;
+        font-size: 3.5vw;
+        list-style-type: none;
+        padding: 0vw 1vw;
+}
+.down {
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+} 
+.right {
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+}
+#Profile {
+		padding: 6vw 2vw;
+		float: left;
+}
+#Title {
+		padding: 7.5vw 35vw;
+		font-size: 6.5vw;
+		font-weight: bold;
+		color: black;
+		max-width: 40vw;
+}
+#Subtitle {
+		padding: 3vw 3vw;
+		font-size: 3vw;
+		color: black;
+		text-decoration: underline;
+}
+#Text {
+		font-size: 2vw;
+		color: black;
+		padding: 0vw 35vw;
+		white-space: nowrap;
+		max-width: 20vw;
+}
+#Left-Text {
+		font-size: 2vw;
+		padding: 0vw 25vw;
+		white-space: nowrap
+
+}
+#Right-Text {
+		font-size: 2vw;
+		padding: 0vw 25vw;
+		float:right;
+}
+#Social {
+		font-size: 2.3vw;
+		color: black;
+		padding: 0vw 68vw;
+		white-space: nowrap;
+		width: auto;
+}
+#Year {
+		font-size: 2vw;
+		padding: 0vw 25vw;
+}
+.Topnav a {
+		float: left;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		padding: 1vw 1vw;
+		font-size: 2vw;
+}
+.Topnav a:hover {
+		background-color: pink;
+		color: black;
+		border-style: solid;
+		border-color: black;
+} 
+#Topnav-right {
+		position: relative;
+		left: 48.5vw;
+		bottom: 0.4vw;
+} 
+.Dropbtn {
+		height: 5vw;
+		width: 10vw;
+		background-color: red;
+		color: white;
+		border-color: red;
+		font-size: 2vw;
+		font-style: Arial;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+}
+.Dropdown {
+		position: relative;
+		display: inline-block;
+		font-size: 2vw;
+}
+.Dropdown-content {
+		display: none;
+		position: fixed;
+		right: 5vw; 
+		background-color: red;
+		max-width: 17vw;
+		z-index: 1;
+		border-style: solid;
+		border-color: black;
+		font-size: 1vw;
+}
+.Dropdown-content a {
+		color: white;
+		padding: 1.2vw 1.6vw;
+		text-decoration: none;
+		display: block;
+}
+.btn-social {
+		width: 4vw;
+		opacity: 0.5;
+		transition: 0.3s ease;
+		cursor: pointer;
+}
+
+.btn-social:hover {
+		opacity: 1;
+		transform: scale(1.5, 1.5);
+}
+.Subtitle {
+		width: 10vw;
+		height: 10vw;
+		opacity: 1.0;
+		transition: 0.3s ease;
+		cursor: pointer;
+}
+.Subtitle:hover {
+		opacity: 1.0;
+		transform: scale(1.5, 1.5);
+}
+.Dropdown-content a:hover {
+		background-color: pink;
+}
+.Dropdown-content a:hover {
+		color: white;
+}
+.Dropdown:hover .Dropdown-content {
+		display: block;
+}
+.Dropdown:hover .Dropbtn {
+		background-color: pink;
+		color: black;
+		border-color: black;
+		border-style: solid;
+}
+body{
+		margin:0px;
+		background-image: url("https://www.wallpapers.net/planetary-nebula-hd-wallpaper/download/2000x2000.jpg");
+}
+.Header-cont {
+		width:100%;
+		position:fixed;
+		top:0vw;
+}
+.Header {
+		height:4.6vw;
+		background:red;
+		width:90%;
+		margin:0px auto;
+}
+.Content {
+		width:90%;
+		background: #ededed;
+		height: 100%;
+		margin: 0vw auto;
+		border: solid 0.5vw black;
+}
+.JesterBox div {
+		visibility: hidden;
+		position: fixed;
+		top: 5%;
+		right: 5%;
+		bottom: 5%;
+		left: 5%;
+		z-index: 75;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.JesterBox div:before {
+		content: '';
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 74;
+		background-color: rgba(0, 0, 0, 0);
+		transition: all 0.5s ease-out;
+}
+.JesterBox div img {
+		position: relative;
+		z-index: 77;
+		min-width: 100%;
+		min-height: 100%;
+		max-width: 100%;
+		max-height: 100%;
+		margin-left: -9999vw;
+		opacity: 0;
+		transition-property: all, opacity;
+		transition-duration: 0.5s, 0.2s;
+		transition-timing-function: ease-in-out, ease-out;
+}
+.JesterBox div:target { 
+		visibility: visible; 
+}
+.JesterBox div:target:before { 
+		background-color: rgba(0, 0, 0, 0.7); 
+}
+.JesterBox div:target img {
+		margin-left: 0vw;
+		opacity: 1;
+}
