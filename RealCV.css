@@ -162,7 +162,7 @@ footer {
 		border-style: solid;
 }
 body{
-		margin:0px;
+		margin:0vw;
 		background-image: url("https://www.wallpapers.net/planetary-nebula-hd-wallpaper/download/2000x2000.jpg");
 }
 .Header-cont {
@@ -174,7 +174,7 @@ body{
 		height:4.6vw;
 		background:red;
 		width:90%;
-		margin:0px auto;
+		margin:0vw auto;
 }
 .Content {
 		width:90%;
