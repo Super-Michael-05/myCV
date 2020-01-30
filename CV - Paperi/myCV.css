@@ -1,0 +1,79 @@
+#Otsikko {
+		font-size: 18pt;
+		font-weight: 700;
+		position: relative;
+		left: 100px;
+}
+#Ala-Otsikko { 
+		font-size: 18pt;
+		font-weight: 700;
+		position: relative;
+		left: 100px;
+}
+#Ala-Ala-Otsikko {
+		font-size: 16pt;
+		position: relative;
+		left: 150px;
+}
+#Tekstin-Otsikko {
+		font-size: 18pt;
+		font-weight: 700;
+		position: relative;
+		left: 150px;
+}
+#Vasen Teksti {
+		font-size: 14pt;
+		float: left;
+		position: relative;
+		left: 300px;
+}
+#Vasen-Teksti {
+		font-size: 14pt;
+		float: left;
+		position: relative;
+		left: 355px;
+}
+#Oikea Teksti {
+		font-size: 14pt;
+		position: relative;
+		left: 600px;
+}
+#Oikea-Teksti {
+		font-size: 14pt;
+		position: relative;
+		left: 600px;
+}
+#Tekstiä {
+		font-size: 14pt;
+		position: relative;
+		left: 355px;
+}
+#Sisältö {
+		font-size: 14pt;
+		position: relative;
+		left: 100px;
+} 
+#Vuosiluku {
+		font-size: 14pt;
+		position: relative;
+		left: 100px;
+		float: left;
+}
+hr {
+		border-style: solid;
+		border-width: 1px;
+		position: relative;
+		right: 100px;
+		max-width: 800px;
+}
+html {
+		border-style: solid;
+		border-width: 1px;
+		position: relative;
+		left: 100px;
+		min-width: 975px;
+		max-width: 975px;
+		font-family: "Arial", Arial, Sans-serif;
+		position: relative;
+		line-height: 30px;
+}
