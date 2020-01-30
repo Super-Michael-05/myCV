@@ -46,8 +46,8 @@ footer {
 		font-size: 2vw;
 		color: black;
 		padding: 0vw 35vw;
-		white-space: nowrap;
-		max-width: 20vw;
+		white-space: normal;
+		width: 50vw;
 }
 #Left-Text {
 		font-size: 2vw;
@@ -57,7 +57,7 @@ footer {
 }
 #Right-Text {
 		font-size: 2vw;
-		padding: 0vw 25vw;
+		padding: 0vw 20vw;
 		float:right;
 }
 #Social {
@@ -87,7 +87,7 @@ footer {
 } 
 #Topnav-right {
 		position: relative;
-		left: 48.5vw;
+		left: 43.7vw;
 		bottom: 0.4vw;
 } 
 .Dropbtn {
@@ -97,10 +97,15 @@ footer {
 		color: white;
 		border-color: red;
 		font-size: 2vw;
-		font-style: Arial;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
+		background-color: #ff0000;
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
 }
 .Dropdown {
 		position: relative;
