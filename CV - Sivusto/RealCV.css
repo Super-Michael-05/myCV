@@ -59,11 +59,20 @@ footer {
 		font-size: 2vw;
 		padding: 0vw 25vw;
 		white-space: nowrap
-
 }
 #Right-Text {
 		font-size: 2vw;
 		padding: 0vw 20vw;
+		float:right;
+}
+#Left-Text-Book {
+		font-size: 2vw;
+		padding: 0vw 15vw;
+		white-space: nowrap
+}
+#Right-Text-Book {
+		font-size: 2vw;
+		padding: 0vw 15vw;
 		float:right;
 }
 #Social {
