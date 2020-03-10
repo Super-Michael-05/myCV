@@ -1,2 +1,2 @@
 # myCV
-# This is my unfinished CV made with HTML, CSS and JS.
+- This is my unfinished CV made with HTML, CSS and JS.
