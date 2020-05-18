@@ -2,9 +2,9 @@
 <html lang="fi">
 <head>
 	<meta charset="UTF-8">
-	<title>Mikael Kolehmainen - Ansioluettelo</title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<title id="title">Mikael Kolehmainen - Ansioluettelo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
 <div class="resume">
@@ -16,7 +16,7 @@
        <div class="resume_item resume_info">
          <div class="title">
            <p class="bold">mikael kolehmainen</p>
-           <p class="regular">Opiskelija</p>
+           <p class="regular" id="profession">Opiskelija</p>
          </div>
          <ul>
           <li>
@@ -55,7 +55,7 @@
        </div>
        <div class="resume_item resume_skills">
          <div class="title">
-           <p class="bold">Taidot</p>
+           <p class="bold" id="skills">Taidot</p>
          </div>
          <ul>
           <li>
@@ -125,7 +125,7 @@
        </div>
        <div class="resume_item resume_social">
          <div class="title">
-           <p class="bold">Sosiaalit</p>
+           <p class="bold" id="social">Sosiaalit</p>
          </div>
          <ul>
            <li>
@@ -169,24 +169,27 @@
      </div>
   </div>
   <div class="resume_right">
+    <a href="#fin" data-reload>FIN</a>
+    <a href="#sve" data-reload>SVE</a>
+    <a href="#eng" data-reload>ENG</a>
     <div class="resume_item resume_about">
         <div class="title">
-           <p class="bold">Minusta</p>
+           <p class="bold" id="about">Minusta</p>
          </div>
-        <p>Tervetuloa ansioluetteloni, tällä sivustolla on kaikki vuosien varella saaneet ansiot. Olen hyvin työläs ja ahkera luontestani. Olen myös valmis ottaman suuria haasteita ja tehdä töitä ahkerasti, tästä ansioluettelosta näet kaikki taitoni eri aloissa.</p>
+        <p id="aboutText">Tervetuloa ansioluetteloni, tällä sivustolla on kaikki vuosien varella saaneet ansiot. Olen hyvin työläs ja ahkera luontestani. Olen myös valmis ottaman suuria haasteita ja tehdä töitä ahkerasti, tästä ansioluettelosta näet kaikki taitoni eri aloissa.</p>
     </div>
     <div class="resume_item resume_work">
         <div class="title">
-           <p class="bold">Työkokemus</p>
+           <p class="bold" id="experience">Työkokemus</p>
          </div>
         <ul>
           <li>
-            <div class="date">12.10.2018</div>
+            <div class="date" id="date_1">12.10.2018</div>
             <div class="info">
-                   <p class="semi-bold">Työelämään tutustuminen - TET</p> 
-                <p>Olin vahtimestarina Gesterbyn koulussa kellon ajat 9:00 - 11:30. Työtehtäväni olivat seuraavat tyhjentä roskikset, vastaanottaa koulun postit ja vartioida koulun käytäviä. Työnantajani(Kari Martiskainen) kommentit: "Kohtelias, Kiinostunut ja yhteistyö sujui hyvin. Kiitos!"</p>
+                   <p class="semi-bold" id="WPP">Työelämään tutustuminen - TET</p> 
+                <p id="WPPText">Olin vahtimestarina Gesterbyn koulussa kellon ajat 9:00 - 11:30. Työtehtäväni olivat seuraavat tyhjentää roskakorit, vastaanottaa koulun postit ja vartioida koulun käytäviä. Työnantajani(Kari Martiskainen) kommentit: "Kohtelias, kiinnostunut ja yhteistyö sujui hyvin. Kiitos!"</p>
                 <br>
-                <p>Olin myös siivooja Gesterbyn koulussa kellon ajat 12 - 14:30. Työtehtäväni olivat seuraavat siivota koulun luokkahuoneet ja käytävät. Työnantajani(Pom Pattamai Hinom) kommentit: "positiivinen, haluaa oppia uusia asioita, kuuntelee tarkasti, ystävällinen ja reippaasti tekee töitä."</p>
+                <p id="WPPText_2">Olin myös siivooja Gesterbyn koulussa kellon ajat 12 - 14:30. Työtehtäväni olivat seuraavat siivota koulun luokkahuoneet ja käytävät. Työnantajani(Pom Pattamai Hinom) kommentit: "positiivinen, haluaa oppia uusia asioita, kuuntelee tarkasti, ystävällinen ja reippaasti tekee töitä."</p>
               </div>
           </li>
             <li>
@@ -206,14 +209,14 @@
             <li>
                 <div class="date">07.01.2014 - Nykyhetki</div> 
                 <div class="info">
-                     <p class="semi-bold">Winellska skolan</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p class="semi-bold">Winellska skolan (Peruskoulu)</p> 
+                  <p>Olin digioppilas ja vihreässä ryhmässä.</p>
                 </div>
             </li>
             <li>
               <div class="date">08.08.2012 - 22.12.2013</div>
               <div class="info">
-                     <p class="semi-bold">Martinlaakson koulu</p> 
+                     <p class="semi-bold">Martinlaakson koulu (Peruskoulu)</p> 
                   <p>Aloitin peruskoulun Martinlaakson koulussa, kävin siellä noin yksi ja puoli vuotta ja sitten vaihdoin koulua 'Winellska skolan' oli uuden koulun nimi.</p>
                 </div>
             </li>
@@ -232,6 +235,7 @@
     </div>
   </div>
 </div>
-<footer >Sivun tekijä: Mikael Kolehmainen 16.05.2020</footer>
+<footer >Sivun tekijä: Mikael Kolehmainen 18.05.2020</footer>
+<script src="code.js"></script>
 </body>
 </html>
