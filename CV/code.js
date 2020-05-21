@@ -25,6 +25,7 @@ var language = {
         date_1: "12.10.2018",
         WPP: "Praktisk arbetslivsorientering - PRAO",
         WPPText: "Jag var vaktmästare i Gesterbyn koulu mellan 9 och 11:30. Tömma skräpkorgarna, ta emot skolans post och vakta skolans korridorer var mina arbetsuppgifter. Min arbetsgivare(Kari Martiskainen) kommentarer: \"Kohtelias, kiinnostunut ja yhteistyö sujui hyvin. Kiitos!\", på svenska: artig, intresserad och samarbetet for bra. Tack!",
+        WPPText_2: "Jag var också en städerska o"
     },
     eng: {
         title: "Mikael Kolehmainen - CV",

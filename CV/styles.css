@@ -8,6 +8,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.resume .resume_right img {
+  width: 40px;
+  height: 27px;
+  border-style: solid;
+  border-color: #0bb5f4;
+}
+
 body {
   background: #585c68;
   font-size: 14px;
