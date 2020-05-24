@@ -34,20 +34,20 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: 860px;
   height: auto;
   display: flex;
   margin: 50px auto;
 }
 
 .resume .resume_left {
-  width: 300px;
+  width: 360px;
   background: #0bb5f4;
 }
 
 .resume .resume_left .resume_profile {
   width: 100%;
-  height: 300px;
+  height: 360px;
 }
 
 .resume .resume_left .resume_profile img {
@@ -127,8 +127,8 @@ body {
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
-  width: 60%;
-  margin: 0 5px;
+  width: 50%;
+  margin: 0 6px;
   height: 5px;
   background: #009fd9;
   position: relative;
@@ -201,10 +201,10 @@ body {
 .resume .resume_right .resume_education ul li:after {
   content: "";
   position: absolute;
-  top: -330px;
+  top: -373px;
   left: -21px;
   width: 2px;
-  height: 337px;
+  height: 380px;
   background: #0bb5f4;
 }
 
@@ -230,8 +230,8 @@ body {
   content: "";
   position: absolute;
   top: 40px;
-  right: -47px;
-  width: 45px;
+  right: -52px;
+  width: 50px;
   height: 2px;
   background: #0bb5f4;
 }

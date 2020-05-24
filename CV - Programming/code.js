@@ -1,13 +1,21 @@
 var dataReload = document.querySelectorAll("[data-reload]");
 
-var date = "22.05.2020";
-var englishDate = "05/22/2020"
+var date = "24.05.2020";
+var englishDate = "05/24/2020"
 
 var language = {
     fin: {
         title: "Mikael Kolehmainen - Ansioluettelo",
         profession: "Opiskelija",
         skills: "Taidot",
+        skill_1: "Kestävyys",
+        skill_2: "Toiveikas",
+        skill_3: "Johtajuus",
+        skill_4: "Rohkea",
+        skill_5: "Luova",
+        skill_6: "Innokas",
+        skill_7: "Sosiaalinen kyky",
+        programmingskills: "Ohjelmointi taidot",
         social: "Sosiaalit",
         about: "Minusta",
         aboutText: "Tervetuloa ansioluetteloni, tällä sivustolla on kaikki vuosien varella saaneet ansiot. Olen hyvin työläs ja ahkera luontestani. Olen myös valmis ottaman suuria haasteita ja tehdä töitä ahkerasti, tästä ansioluettelosta näet kaikki taitoni eri aloissa.",
@@ -33,6 +41,14 @@ var language = {
         title: "Mikael Kolehmainen - CV",
         profession: "Elev",
         skills: "Färdigheter",
+        skill_1: "Uthållighet",
+        skill_2: "Hoppfull",
+        skill_3: "Ledarskap",
+        skill_4: "Modig",
+        skill_5: "Kreativ",
+        skill_6: "Entusiastisk",
+        skill_7: "Social Förmåga",
+        programmingskills: "Programmerings färdigheter",
         social: "Sociala",
         about: "Om mig",
         aboutText: "Välkommen till min CV, på den här sidan finns allting jag har åstadkommit under åren. Jag är väldigt arbetsam och flitig. Jag är också färdig att ta stora utmaningar och arbeta flitigt, från denna CV ser du alla mina färdigheter i olika branscher.",
@@ -58,6 +74,14 @@ var language = {
         title: "Mikael Kolehmainen - CV",
         profession: "Student",
         skills: "Skills",
+        skill_1: "Endurance",
+        skill_2: "Hopeful",
+        skill_3: "Leadership",
+        skill_4: "Brave",
+        skill_5: "Creative",
+        skill_6: "Avid",
+        skill_7: "Social ability",
+        programmingskills: "Programming skills",
         social: "Socials",
         about: "About me",
         aboutText: "Welcome to my CV, on this site are all my achievements that I accomplished throughout the years. I'm hard-working and assiduous. I'm also ready to take huge challenges and work diligently, from this CV you can see all my skills in different lines of work.",
@@ -86,6 +110,14 @@ var language = {
             profession.textContent = language.sve.profession;
             title.textContent = language.sve.title;
             skills.textContent = language.sve.skills;
+            skill_1.textContent = language.sve.skill_1;
+            skill_2.textContent = language.sve.skill_2;
+            skill_3.textContent = language.sve.skill_3;
+            skill_4.textContent = language.sve.skill_4;
+            skill_5.textContent = language.sve.skill_5;
+            skill_6.textContent = language.sve.skill_6;
+            skill_7.textContent = language.sve.skill_7;
+            programmingskills.textContent = language.sve.programmingskills;
             social.textContent = language.sve.social;
             about.textContent = language.sve.about;
             aboutText.textContent = language.sve.aboutText;
@@ -110,6 +142,14 @@ var language = {
             profession.textContent = language.eng.profession;
             title.textContent = language.eng.title;
             skills.textContent = language.eng.skills;
+            skill_1.textContent = language.eng.skill_1;
+            skill_2.textContent = language.eng.skill_2;
+            skill_3.textContent = language.eng.skill_3;
+            skill_4.textContent = language.eng.skill_4;
+            skill_5.textContent = language.eng.skill_5;
+            skill_6.textContent = language.eng.skill_6;
+            skill_7.textContent = language.eng.skill_7;
+            programmingskills.textContent = language.eng.programmingskills;
             social.textContent = language.eng.social;
             about.textContent = language.eng.about;
             aboutText.textContent = language.eng.aboutText;
@@ -134,6 +174,14 @@ var language = {
             profession.textContent = language.fin.profession;
             title.textContent = language.fin.title;
             skills.textContent = language.fin.skills;
+            skill_1.textContent = language.fin.skill_1;
+            skill_2.textContent = language.fin.skill_2;
+            skill_3.textContent = language.fin.skill_3;
+            skill_4.textContent = language.fin.skill_4;
+            skill_5.textContent = language.fin.skill_5;
+            skill_6.textContent = language.fin.skill_6;
+            skill_7.textContent = language.fin.skill_7;
+            programmingskills.textContent = language.fin.programmingskills;
             social.textContent = language.fin.social;
             about.textContent = language.fin.about;
             aboutText.textContent = language.fin.aboutText;
