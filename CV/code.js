@@ -1,7 +1,7 @@
 var dataReload = document.querySelectorAll("[data-reload]");
 
-var date = "24.05.2020";
-var englishDate = "05/24/2020"
+var date = "25.05.2020";
+var englishDate = "05/25/2020"
 
 var language = {
     fin: {
@@ -138,6 +138,32 @@ var language = {
             schoolText_2.textContent = language.sve.schoolText_2;
             hobbies.textContent = language.sve.hobbies;
             creator.textContent = language.sve.creator;
+            
+            var style = document.createElement('style');
+            style.innerHTML = `
+            .resume .resume_right .resume_work ul li:before,
+            .resume .resume_right .resume_education ul li:before  {
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: -25px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                border: 2px solid #0bb5f4;
+            }
+            
+            .resume .resume_right .resume_work ul li:after,
+            .resume .resume_right .resume_education ul li:after {
+                content: "";
+                position: absolute;
+                top: -373px;
+                left: -21px;
+                width: 2px;
+                height: 380px;
+                background: #0bb5f4;
+            `;
+            document.head.appendChild(style);
         } else if (window.location.hash === "#eng") {
             profession.textContent = language.eng.profession;
             title.textContent = language.eng.title;
@@ -170,6 +196,32 @@ var language = {
             schoolText_2.textContent = language.eng.schoolText_2;
             hobbies.textContent = language.eng.hobbies;
             creator.textContent = language.eng.creator;
+            
+            var style = document.createElement('style');
+            style.innerHTML = `
+            .resume .resume_right .resume_work ul li:before,
+            .resume .resume_right .resume_education ul li:before  {
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: -25px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                border: 2px solid #0bb5f4;
+            }
+            
+            .resume .resume_right .resume_work ul li:after,
+            .resume .resume_right .resume_education ul li:after {
+                content: "";
+                position: absolute;
+                top: -350px;
+                left: -21px;
+                width: 2px;
+                height: 355px;
+                background: #0bb5f4;
+            `;
+            document.head.appendChild(style);
         } else if (window.location.hash === "#fin") {
             profession.textContent = language.fin.profession;
             title.textContent = language.fin.title;
@@ -202,6 +254,32 @@ var language = {
             schoolText_2.textContent = language.fin.schoolText_2;
             hobbies.textContent = language.fin.hobbies;
             creator.textContent = language.fin.creator;
+
+            var style = document.createElement('style');
+            style.innerHTML = `
+            .resume .resume_right .resume_work ul li:before,
+            .resume .resume_right .resume_education ul li:before  {
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: -25px;
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                border: 2px solid #0bb5f4;
+            }
+            
+            .resume .resume_right .resume_work ul li:after,
+            .resume .resume_right .resume_education ul li:after {
+                content: "";
+                position: absolute;
+                top: -307px;
+                left: -21px;
+                width: 2px;
+                height: 312px;
+                background: #0bb5f4;
+            `;
+            document.head.appendChild(style);
         }
     }
 
