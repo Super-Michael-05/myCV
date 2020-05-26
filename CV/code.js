@@ -1,7 +1,14 @@
 var dataReload = document.querySelectorAll("[data-reload]");
 
-var date = "25.05.2020";
-var englishDate = "05/25/2020"
+var date = "26.05.2020";
+var englishDate = "05/26/2020"
+
+function start() {
+    if (!window.location.hash) {
+        window.location.hash = "#fin"
+    }
+}
+window.start();
 
 var language = {
     fin: {
