@@ -510,8 +510,15 @@ footer {
            <p class="bold" id="education">Koulutus</p>
          </div>
       <ul id="line_2">
+              <li>
+                <div class="date" id="date_5">14.08.2020 - nykyhetki</div> 
+                <div class="info">
+                    <p class="semi-bold" id="school_3">Vaasa Övningsskola (peruskoulu)</p> 
+                  <p id="schoolText_3">Olin vuoden Vaasan koulussa.</p>
+                </div>
+            </li>
             <li>
-                <div class="date" id="date_3">07.01.2014 - nykyhetki</div> 
+                <div class="date" id="date_3">07.01.2014 - 01.06.2020</div> 
                 <div class="info">
                      <p class="semi-bold" id="school">Winellska skolan (peruskoulu)</p> 
                   <p id="schoolText">Olin digioppilas ja vihreässä ryhmässä.</p>
@@ -543,8 +550,8 @@ footer {
 <script>
   var dataReload = document.querySelectorAll("[data-reload]");
 
-var date = "26.05.2020";
-var englishDate = "05/26/2020"
+var date = "29.07.2020";
+var englishDate = "07/29/2020"
 
 function start() {
     if (!window.location.hash) {
@@ -578,14 +585,17 @@ var language = {
         corptown: "Yrityskylä",
         corptownText: "Olin Espoon Yrityskylässä. \"Yrityskylä on maailman parhaana koulutusinnovaationa palkittu suomalainen oppimiskokonaisuus. Tarjoamme kuudes- ja yhdeksäsluokkalaisille myönteisiä kokemuksia työelämästä, taloudesta ja yhteiskunnasta. Mikä parasta, Yrityskylä perustuu opetussuunnitelmaan.\" Työtehtäväni olivat seuraavat pitää silmällä työntekijöitä, huolehtia yrityksen taloudesta ja pitää kokouksia työntekijöille.",
         education: "Koulutus",
-        date_3: "07.01.2014 - nykyhetki",
+        date_3: "07.01.2014 - 01.06.2020",
         school: "Winellska skolan (peruskoulu)",
         schoolText: "Olin digioppilas ja vihreässä ryhmässä.",
         date_4: "08.08.2012 - 22.12.2013",
         school_2: "Martinlaakson koulu (peruskoulu)",
         schoolText_2: "Aloitin peruskoulun Martinlaakson koulussa, kävin siellä noin yksi ja puoli vuotta ja sitten vaihdoin koulua, 'Winellska skolan' oli uuden koulun nimi.",
         hobbies: "Harrastukset",
-        creator: "Sivun tekijä: Mikael Kolehmainen " + date
+        creator: "Sivun tekijä: Mikael Kolehmainen " + date,
+        school_3: "Vaasa Övningsskola (peruskoulu)",
+        schoolText_3: "Olin vuoden Vaasan koulussa.",
+        date_5: "14.08.2020 - nykyhetki"
     },
     sve: {
         title: "Mikael Kolehmainen - CV",
@@ -611,14 +621,17 @@ var language = {
         corptown: "Företagsbyn",
         corptownText: "Jag var i Yrityskylä i Esbo. \"Företagsbyn är en finländsk lärandemiljö som belönats som världens bästa utbildningsinnovation. Vi erbjuder sjätte- och niondeklassister positiva erfarenheter av arbetsliv, ekonomi och samhälle. Det bästa är, att Företagsbyn grundar sig på läroplanen.\" Hålla ett öga på arbetarna, sköta om företagets ekonomi och hålla möten för arbetarna.",
         education: "Utbildning",
-        date_3: "07.01.2014 - nutid",
+        date_3: "07.01.2014 - 01.06.2020",
         school: "Winellska skolan (grundskola)",
         schoolText: "Jag var en digielev och i gröna gruppen.",
         date_4: "08.08.2012 - 22.12.2013",
         school_2: "Martinlaakson koulu (grundskola)",
         schoolText_2: "Jag började grundskolan i Martinlaakson koulu, jag gick där i skola i ett och ett halvt år och sen böt jag skola, 'Winellska skolan' var nya skolans namn.",
         hobbies: "Hobbyn",
-        creator: "Sidans tilverkare: Mikael Kolehmainen " + date
+        creator: "Sidans tilverkare: Mikael Kolehmainen " + date,
+        school_3: "Vaasa Övningsskola (grundskola)",
+        schoolText_3: "Jag var ett år i Vaasas skola.",
+        date_5: "14.08.2020 - nutid"
     },
     eng: {
         title: "Mikael Kolehmainen - CV",
@@ -644,14 +657,17 @@ var language = {
         corptown: "Yrityskylä",
         corptownText: "I was in Yrityskylä in Espoo. \"Yrityskylä is a Finnish learning concept which has been recognised as the world’s best education innovation. Its story began in 2010. We offer school children in grades six and nine positive experiences of working life, the economy and society and encourage entrepreneurship. To top it all off, Yrityskylä is based on a curriculum.\" My work assignments were to keep an eye on the employees",
         education: "Education",
-        date_3: "01/07/2014 - present",
+        date_3: "01/07/2014 - 06/01/2020",
         school: "Winellska skolan (comprehensive school)",
         schoolText: "I was a digital student and in the green group.",
         date_4: "08/08/2012 - 12/22/2013",
         school_2: "Martinlaakson koulu (comprehensive school)",
         schoolText_2: "I started comprehensive school in Martinlaakson koulu, I went to school one and a half year and then I changed school, 'Winellska skolan' was the new schools name.",
         hobbies: "Hobbies",
-        creator: "Page creator: Mikael Kolehmainen " + englishDate
+        creator: "Page creator: Mikael Kolehmainen " + englishDate,
+        school_3: "Vaasa Övningsskola (comprehensive school)",
+        schoolText_3: "I was one year in Vaasa's school.",
+        date_5: "08/14/2020 - present"
     }
 };
 
@@ -688,6 +704,9 @@ var language = {
             schoolText_2.textContent = language.sve.schoolText_2;
             hobbies.textContent = language.sve.hobbies;
             creator.textContent = language.sve.creator;
+            school_3.textContent = language.sve.school_3;
+            schoolText_3.textContent = language.sve.schoolText_3;
+            date_5.textContent = language.sve.date_5;
             
             var style = document.createElement('style');
             style.innerHTML = `
@@ -746,6 +765,9 @@ var language = {
             schoolText_2.textContent = language.eng.schoolText_2;
             hobbies.textContent = language.eng.hobbies;
             creator.textContent = language.eng.creator;
+            school_3.textContent = language.eng.school_3;
+            schoolText_3.textContent = language.eng.schoolText_3;
+            date_5.textContent = language.eng.date_5;
             
             var style = document.createElement('style');
             style.innerHTML = `
@@ -804,6 +826,9 @@ var language = {
             schoolText_2.textContent = language.fin.schoolText_2;
             hobbies.textContent = language.fin.hobbies;
             creator.textContent = language.fin.creator;
+            school_3.textContent = language.fin.school_3;
+            schoolText_3.textContent = language.fin.schoolText_3;
+            date_5.textContent = language.fin.date_5;
 
             var style = document.createElement('style');
             style.innerHTML = `
