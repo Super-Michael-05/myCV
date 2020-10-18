@@ -19,4 +19,6 @@
 
 ![Banner](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/banner.png)
 
+<h1 align="left">Project images</h1>
+
 Created by Mikael Kolehmainen with HTML, CSS, JS.
