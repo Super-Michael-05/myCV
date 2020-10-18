@@ -1,6 +1,4 @@
-<h1 align="center">
-  myCV
-</h1>
+![Banner](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/banner.png)
 <hr size="10" width="100%" color="black">
 <h3 align="center">
   NOTE:
@@ -18,8 +16,5 @@
   https://github.com/Super-Michael-05/CustomWordPressThemes
 </h4>
 <hr size="10" width="100%" color="black">
-
-![Banner](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/banner.png)
-
 
 Created by Mikael Kolehmainen with HTML, CSS, JS.
