@@ -18,7 +18,7 @@
   https://github.com/Super-Michael-05/CustomWordPressThemes
 </h4>
 <hr size="10" width="90%" color="black">
-[Banner](Super-Michael-05.github.com/Images/img/myCV_Banner.png)
+![Banner](https://Super-Michael-05.github.com/myCV/README_assets/banner.png)
 
 
 Created by Mikael Kolehmainen with HTML, CSS, JS.
