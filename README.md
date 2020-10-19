@@ -19,9 +19,6 @@
 
 ![Banner](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/banner.png)
 
-<h2 align="left">HTML</h2>
-<p>The HTML </p>
-
 <h2 align="left">Project images</h2>
 
 ![1st](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/Screenshot%20(1).png)
