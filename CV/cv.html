@@ -169,9 +169,35 @@ body {
 }
 
 .resume .resume_right .resume_work ul,
-.resume .resume_right .resume_education ul {
+.resume .resume_right .resume_education ul,
+.resume .resume_right .resume_course ul {
   padding-left: 40px;
   overflow: hidden;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before,
+.resume .resume_right .resume_course ul li:before  {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0bb5f4;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after,
+.resume .resume_right .resume_course ul li:after {
+    content: "";
+    position: absolute;
+    top: -350px;
+    left: -21px;
+    width: 2px;
+    height: 355px;
+    background: #0bb5f4;
 }
 
 .resume .resume_right ul li {
@@ -556,6 +582,20 @@ footer {
             </li>
         </ul>
     </div>
+    <div class="resume_item resume_course">
+      <div class="title">
+          <p class="bold" id="course">Kurssit</p>
+      </div>
+      <ul id="line_3">
+          <li>
+              <div class="date" id="date_6">11.12.2018 - 12.12.2018</div> 
+              <div class="info">
+                  <p class="semi-bold" id="course_1">aXion - kurssi</p> 
+                  <p id="courseText">Kurssi  sisältää mm. harjoituksia jotka parantavat yhteistyötä ryhmässä ja kyky tehdä päätöksiä.</p>
+              </div>
+          </li>
+      </ul>
+  </div>
     <div class="resume_item resume_hobby">
       <div class="title">
            <p class="bold" id="hobbies">Harrastukset</p>
@@ -755,31 +795,6 @@ var language = {
             WPP_2.textContent = language.sve.WPP_2;
             WPPText_3.textContent = language.sve.WPPText_3;
             
-            var style = document.createElement('style');
-            style.innerHTML = `
-            .resume .resume_right .resume_work ul li:before,
-            .resume .resume_right .resume_education ul li:before  {
-                content: "";
-                position: absolute;
-                top: 5px;
-                left: -25px;
-                width: 6px;
-                height: 6px;
-                border-radius: 50%;
-                border: 2px solid #0bb5f4;
-            }
-            
-            .resume .resume_right .resume_work ul li:after,
-            .resume .resume_right .resume_education ul li:after {
-                content: "";
-                position: absolute;
-                top: -373px;
-                left: -21px;
-                width: 2px;
-                height: 380px;
-                background: #0bb5f4;
-            `;
-            document.head.appendChild(style);
         } else if (window.location.hash === "#eng") {
             profession.textContent = language.eng.profession;
             title.textContent = language.eng.title;
@@ -822,31 +837,6 @@ var language = {
             WPP_2.textContent = language.eng.WPP_2;
             WPPText_3.textContent = language.eng.WPPText_3;
             
-            var style = document.createElement('style');
-            style.innerHTML = `
-            .resume .resume_right .resume_work ul li:before,
-            .resume .resume_right .resume_education ul li:before  {
-                content: "";
-                position: absolute;
-                top: 5px;
-                left: -25px;
-                width: 6px;
-                height: 6px;
-                border-radius: 50%;
-                border: 2px solid #0bb5f4;
-            }
-            
-            .resume .resume_right .resume_work ul li:after,
-            .resume .resume_right .resume_education ul li:after {
-                content: "";
-                position: absolute;
-                top: -350px;
-                left: -21px;
-                width: 2px;
-                height: 355px;
-                background: #0bb5f4;
-            `;
-            document.head.appendChild(style);
         } else if (window.location.hash === "#fin") {
             profession.textContent = language.fin.profession;
             title.textContent = language.fin.title;
@@ -888,32 +878,6 @@ var language = {
             date_7.textContent = language.fin.date_7;
             WPP_2.textContent = language.fin.WPP_2;
             WPPText_3.textContent = language.fin.WPPText_3;
-
-            var style = document.createElement('style');
-            style.innerHTML = `
-            .resume .resume_right .resume_work ul li:before,
-            .resume .resume_right .resume_education ul li:before  {
-                content: "";
-                position: absolute;
-                top: 5px;
-                left: -25px;
-                width: 6px;
-                height: 6px;
-                border-radius: 50%;
-                border: 2px solid #0bb5f4;
-            }
-            
-            .resume .resume_right .resume_work ul li:after,
-            .resume .resume_right .resume_education ul li:after {
-                content: "";
-                position: absolute;
-                top: -307px;
-                left: -21px;
-                width: 2px;
-                height: 312px;
-                background: #0bb5f4;
-            `;
-            document.head.appendChild(style);
         }
     }
 
