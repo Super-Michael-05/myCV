@@ -170,14 +170,16 @@ body {
 
 .resume .resume_right .resume_work ul,
 .resume .resume_right .resume_education ul,
-.resume .resume_right .resume_course ul {
+.resume .resume_right .resume_course ul,
+.resume .resume_right .resume_position ul {
   padding-left: 40px;
   overflow: hidden;
 }
 
 .resume .resume_right .resume_work ul li:before,
 .resume .resume_right .resume_education ul li:before,
-.resume .resume_right .resume_course ul li:before  {
+.resume .resume_right .resume_course ul li:before,
+.resume .resume_right .resume_position ul li:before  {
     content: "";
     position: absolute;
     top: 5px;
@@ -190,7 +192,8 @@ body {
 
 .resume .resume_right .resume_work ul li:after,
 .resume .resume_right .resume_education ul li:after,
-.resume .resume_right .resume_course ul li:after {
+.resume .resume_right .resume_course ul li:after,
+.resume .resume_right .resume_position ul li:after {
     content: "";
     position: absolute;
     top: -350px;
@@ -563,7 +566,7 @@ footer {
                 <div class="date" id="date_5">13.08.2020 - nykyhetki</div> 
                 <div class="info">
                     <p class="semi-bold" id="school_3">Vasa Övningsskola (peruskoulu)</p> 
-                  <p id="schoolText_3">Olin vuoden Vaasassa koulussa. Olin varapuheenjohtaja oppilaskunnassa.</p>
+                  <p id="schoolText_3">Olin varapuheenjohtaja oppilaskunnassa.</p>
                 </div>
             </li>
             <li>
@@ -577,11 +580,38 @@ footer {
               <div class="date" id="date_4">08.08.2012 - 22.12.2013</div>
               <div class="info">
                      <p class="semi-bold" id="school_2">Martinlaakson koulu (peruskoulu)</p> 
-                  <p id="schoolText_2">Aloitin peruskoulun Martinlaakson koulussa, kävin siellä noin yksi ja puoli vuotta ja sitten vaihdoin koulua, 'Winellska skolan' oli uuden koulun nimi.</p>
                 </div>
             </li>
         </ul>
     </div>
+    <div class="resume_item resume_position">
+      <div class="title">
+          <p class="bold" id="position">Luottamustehtävät</p>
+      </div>
+      <ul>
+          <li>
+              <div class="date">2020 - 2021</div> 
+              <div class="info">
+                  <p class="semi-bold" id="union">Oppilaskunta</p> 
+                  <p id="unionText">Olin varapuheenjohtaja oppilaskunnassa Vasa Övningsskola:ssa.</p>
+              </div>
+          </li>
+          <li>
+              <div class="date">2019 - 2020</div> 
+              <div class="info">
+                  <p class="semi-bold" id="greenGroup">Vihreä ryhmä</p> 
+                  <p id="greenGroupText">Olin vihreässä ryhmässä Winellska skola:ssa. Vihreä ryhmä luovat opettavaa materiaalia ilmastosta ja miten vaikuttaa ilmastoon.</p>
+              </div>
+          </li>
+          <li>
+              <div class="date">2019 - 2020</div> 
+              <div class="info">
+                  <p class="semi-bold" id="digiStudent">Digioppilas</p> 
+                  <p id="digiStudentText">Olin digioppilas Winellska skola:ssa. Digioppilat auttavat opettajia ja toisia oppilaita IT ja teknika kysymyksissä.</p>
+              </div>
+          </li>
+      </ul>
+  </div>
     <div class="resume_item resume_course">
       <div class="title">
           <p class="bold" id="course">Kurssit</p>
@@ -591,7 +621,7 @@ footer {
               <div class="date" id="date_8">11.12.2018 - 12.12.2018</div> 
               <div class="info">
                   <p class="semi-bold" id="course_1">aXion - kurssi</p> 
-                  <p id="courseText">Kurssi  sisältää mm. harjoituksia jotka parantavat yhteistyötä ryhmässä ja kyky tehdä päätöksiä.</p>
+                  <p id="courseText">Kurssi sisältää mm. harjoituksia jotka parantavat yhteistyötä ryhmässä ja kyky tehdä päätöksiä.</p>
               </div>
           </li>
       </ul>
@@ -613,8 +643,8 @@ footer {
 <script>
   var dataReload = document.querySelectorAll("[data-reload]");
 
-  var date = "25.01.2021";
-  var englishDate = "01/25/2021"
+  var date = "11.04.2021";
+  var englishDate = "04/11/2021"
 
   function start() {
       if (!window.location.hash) {
@@ -653,11 +683,10 @@ footer {
           schoolText: "Olin digioppilas ja vihreässä ryhmässä.",
           date_4: "08.08.2012 - 22.12.2013",
           school_2: "Martinlaakson koulu (peruskoulu)",
-          schoolText_2: "Aloitin peruskoulun Martinlaakson koulussa, kävin siellä noin yksi ja puoli vuotta ja sitten vaihdoin koulua, 'Winellska skolan' oli uuden koulun nimi.",
           hobbies: "Harrastukset",
           creator: "Sivun tekijä: Mikael Kolehmainen " + date,
           school_3: "Vasa Övningsskola (peruskoulu)",
-          schoolText_3: "Olin vuoden Vaasassa koulussa. Olin varapuheenjohtaja oppilaskunnassa.",
+          schoolText_3: "Olin varapuheenjohtaja oppilaskunnassa.",
           date_5: "13.08.2020 - nykyhetki",
           date_6: "09.09.2020 - nykyhetki",
           SSM: "Suomen Suoramainonta - SSM",
@@ -668,7 +697,14 @@ footer {
           course: "Kurssit",
           date_8: "11.12.2018 - 12.12.2018",
           course_1: "aXion - kurssi",
-          courseText: "Kurssi  sisältää mm. harjoituksia jotka parantavat yhteistyötä ryhmässä ja kyky tehdä päätöksiä."
+          courseText: "Kurssi sisältää mm. harjoituksia jotka parantavat yhteistyötä ryhmässä ja kyky tehdä päätöksiä.",
+          union: "Oppilaskunta",
+          position: "Luottamustehtävät",
+          unionText: "Olin varapuheenjohtaja oppilaskunnassa Vasa Övningsskola:ssa.",
+          greenGroup: "Vihreä ryhmä",
+          greenGroupText: "Olin vihreässä ryhmässä Winellska skola:ssa. Vihreä ryhmä luovat opettavaa materiaalia ilmastosta ja miten vaikuttaa ilmastoon.",
+          digiStudent: "Digioppilas",
+          digiStudentText: "Olin digioppilas Winellska skola:ssa. Digioppilat auttavat opettajia ja toisia oppilaita IT ja teknika kysymyksissä."
       },
       sve: {
           title: "Mikael Kolehmainen - CV",
@@ -699,11 +735,10 @@ footer {
           schoolText: "Jag var en digielev och i gröna gruppen.",
           date_4: "08.08.2012 - 22.12.2013",
           school_2: "Martinlaakson koulu (grundskola)",
-          schoolText_2: "Jag började grundskolan i Martinlaakson koulu, jag gick där i skola i ett och ett halvt år och sen böt jag skola, 'Winellska skolan' var nya skolans namn.",
           hobbies: "Hobbyn",
           creator: "Sidans tilverkare: Mikael Kolehmainen " + date,
           school_3: "Vasa Övningsskola (grundskola)",
-          schoolText_3: "Jag var ett år i Vasa i skola. Jag var vice ordförande i elevkårsstyrelsen.",
+          schoolText_3: "Jag var vice ordförande i elevkårsstyrelsen.",
           date_5: "13.08.2020 - nutid",
           date_6: "09.09.2020 - nutid",
           SSM: "Suomen Suoramainonta - SSM",
@@ -714,7 +749,14 @@ footer {
           course: "Kurser",
           date_8: "11.12.2018 - 12.12.2018",
           course_1: "aXion - kurs",
-          courseText: "Kursen inehåller bl.a. övningar som förbättrar sanarbete i grupp och förmågan att fatta beslut."
+          courseText: "Kursen inehåller bl.a. övningar som förbättrar sanarbete i grupp och förmågan att fatta beslut.",
+          union: "Elevkårsstyrelse",
+          position: "Förtroendeuppdrag",
+          unionText: "Jag var vice ordförande i elevkårsstyrelsen i Vasa Övningsskolan.",
+          greenGroup: "Gröna gruppen",
+          greenGroupText: "Jag var i gröna gruppen i Winellska skolan. Gröna gruppen skapar lärande material om klimatet och hur man kan påverka klimatet.",
+          digiStudent: "Digielev",
+          digiStudentText: "Jag var digielev i Winellska skolan. Digielever hjälper lärare och andra elever i IT och teknik frågor."
       },
       eng: {
           title: "Mikael Kolehmainen - CV",
@@ -745,11 +787,10 @@ footer {
           schoolText: "I was a digital student and in the green group.",
           date_4: "08/08/2012 - 12/22/2013",
           school_2: "Martinlaakson koulu (comprehensive school)",
-          schoolText_2: "I started comprehensive school in Martinlaakson koulu, I went to school one and a half year and then I changed school, 'Winellska skolan' was the new schools name.",
           hobbies: "Hobbies",
           creator: "Page creator: Mikael Kolehmainen " + englishDate,
           school_3: "Vasa Övningsskola (comprehensive school)",
-          schoolText_3: "I lived one year in Vaasa and went to a school in Vaasa. I was the vice-chairman in the students' union.",
+          schoolText_3: "I was the vice-chairman in the students' union.",
           date_5: "08/13/2020 - present",
           date_6: "09/09/2020 - present",
           SSM: "Suomen Suoramainonta - SSM",
@@ -760,7 +801,14 @@ footer {
           course: "Courses",
           date_8: "12/11/2018 - 12/12/2018",
           course_1: "aXion - course",
-          courseText: "The course includes amongst others practices that improve cooperation in group and the ability to make decisions."
+          courseText: "The course includes amongst others practices that improve cooperation in group and the ability to make decisions.",
+          union: "Students' union",
+          position: "Positions of responsibility",
+          unionText: "I was the vice-chairman in the students' union in Vasa Övningsskola.",
+          greenGroup: "Green group",
+          greenGroupText: "I was in the green group in Winellska skolan. The green group creates learning material about the climate and how you can affect the climate.",
+          digiStudent: "Digital student",
+          digiStudentText: "I was a digital student in Winellska skolan. Digital students help teachers and other pupils in IT and technology questions."
       }
   };
 
@@ -794,7 +842,6 @@ footer {
               schoolText.textContent = language.sve.schoolText;
               date_4.textContent = language.sve.date_4;
               school_2.textContent = language.sve.school_2;
-              schoolText_2.textContent = language.sve.schoolText_2;
               hobbies.textContent = language.sve.hobbies;
               creator.textContent = language.sve.creator;
               school_3.textContent = language.sve.school_3;
@@ -809,7 +856,14 @@ footer {
               course.textContent = language.sve.course;
               date_8.textContent = language.sve.date_8;
               course_1.textContent = language.sve.course_1;
-              courseText.textContent = language.sve.textContent;
+              courseText.textContent = language.sve.courseText;
+              union.textContent = language.sve.union;
+              position.textContent = language.sve.position;
+              unionText.textContent = language.sve.unionText;
+              greenGroup.textContent = language.sve.greenGroup;
+              greenGroupText.textContent = language.sve.greenGroupText;
+              digiStudent.textContent = language.sve.digiStudent;
+              digiStudentText.textContent = language.sve.digiStudentText;
               
           } else if (window.location.hash === "#eng") {
               profession.textContent = language.eng.profession;
@@ -840,7 +894,6 @@ footer {
               schoolText.textContent = language.eng.schoolText;
               date_4.textContent = language.eng.date_4;
               school_2.textContent = language.eng.school_2;
-              schoolText_2.textContent = language.eng.schoolText_2;
               hobbies.textContent = language.eng.hobbies;
               creator.textContent = language.eng.creator;
               school_3.textContent = language.eng.school_3;
@@ -856,6 +909,13 @@ footer {
               date_8.textContent = language.eng.date_8;
               course_1.textContent = language.eng.course_1;
               courseText.textContent = language.eng.courseText;
+              union.textContent = language.eng.union;
+              position.textContent = language.eng.position;
+              unionText.textContent = language.eng.unionText;
+              greenGroup.textContent = language.eng.greenGroup;
+              greenGroupText.textContent = language.eng.greenGroupText;
+              digiStudent.textContent = language.eng.digiStudent;
+              digiStudentText.textContent = language.eng.digiStudentText;
               
           } else if (window.location.hash === "#fin") {
               profession.textContent = language.fin.profession;
@@ -886,7 +946,6 @@ footer {
               schoolText.textContent = language.fin.schoolText;
               date_4.textContent = language.fin.date_4;
               school_2.textContent = language.fin.school_2;
-              schoolText_2.textContent = language.fin.schoolText_2;
               hobbies.textContent = language.fin.hobbies;
               creator.textContent = language.fin.creator;
               school_3.textContent = language.fin.school_3;
@@ -902,6 +961,13 @@ footer {
               date_8.textContent = language.fin.date_8;
               course_1.textContent = language.fin.course_1;
               courseText.textContent = language.fin.courseText;
+              union.textContent = language.fin.union;
+              position.textContent = language.fin.position;
+              unionText.textContent = language.fin.unionText;
+              greenGroup.textContent = language.fin.greenGroup;
+              greenGroupText.textContent = language.fin.greenGroupText;
+              digiStudent.textContent = language.fin.digiStudent;
+              digiStudentText.textContent = language.fin.digiStudentText;
           }
       }
 
